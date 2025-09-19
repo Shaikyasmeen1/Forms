@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Student Information Form
+        </title>
+    </head>
+    <body>
+        <h1>Student Information Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required title="your password Must be 6 letters long">
+            <br>
+            <br>
+
+            <label for="birth">Date Of Birth:</label>
+            <input type="date" id="birth" name="birth" required>
+            <br>
+            <br>
+
+            <label for="bio">Short Bio: </label>
+            <br>
+            <textarea rows="3" cols="30" required id="bio" title="Tell Us about Yourself">
+
+            </textarea>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Areas Of intereest</legend>
+            <label>
+                <input type="checkbox" value="Java fullStack">Java FullStack
+            </label><br>
+            <label>
+                <input type="checkbox" value="Web Development">Web Development
+            </label><br>
+            <label>
+                <input type="checkbox" value="data science">Data Science
+            </label>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Programming skill Level</legend>
+            <label>Rate Your Skill(0 to 10) :</label><br>
+            <input type="range">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        
+        <fieldset>
+            <legend>Upload Your Photo </legend>
+            <input type="File" required accept=".pdf">
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </body>
+</html>
